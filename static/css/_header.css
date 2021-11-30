@@ -1,0 +1,30 @@
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.navbrand h1{
+    font-size: 41px;
+}
+.navbrand{
+    padding-left: 25px;
+    margin-right: 800px;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-item{
+    margin: 0 30px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.nav-item a{
+    color: white;
+}

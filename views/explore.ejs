@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safar | Explore</title>
+    <link rel="stylesheet" href="/css/explore.css">
+    <script src="https://kit.fontawesome.com/e9cb9b0869.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <%-include('_header')%>
+    <div class="main">
+      <% for(let i of reviews){ %>
+            <div class="review">
+                <div class="left">
+                    <img class="img" src="<%=i.image%>" alt="">
+                    <h1 class="user"><%=i.username%></h1>
+                </div>
+                <div class="right">
+                    <h1><span>Location: </span> <%=i.location%></h1>
+                    <h1><span>Experience:</span> <%=i.experience%></h1>
+                    <h1><span>Places to Visit:</span> <%=i.places%></h1>
+                    <h1><span>Rating:</span> <%=i.rating%></h1>
+                    <h1><span>Expenditure:</span> <%=i.expenditure%></h1>
+                    <div class="delete-btn"> <a href="/delete-review/?id=<%= i._id %>">Delete </a><i class="fas fa-trash"></i></div>
+                </div>
+            </div>
+        <% } %>
+    </div>
+    <%-include('_footer')%>
+</body>
+</html>

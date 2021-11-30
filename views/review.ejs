@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safar | Review</title>
+    <link rel="stylesheet" href="/css/review.css">
+</head>
+<body>
+    <%-include('_header')%>
+    <div class="main">
+     <div class="main-content">
+      <form action="/add-review" method="post">
+
+          <div><input type="text" placeholder="Name" name="username"></div>
+          <div><input type="text" placeholder="Location" name="location"></div>
+          <div><input type="text" placeholder="Image URL" name="image"></div>
+          <div><input type="text" placeholder="Experience" name="experience"></div>
+          <div><input type="number" placeholder="Rating" name="rating"></div>
+          <div><input type="text" placeholder="Places" name="places"></div>
+          <div><input type="number" placeholder="Expenditure for 2" name="expenditure"></div>
+          <div><button type="submit">Submit</button></div>
+      </form>
+     </div>
+    </div>
+    <%-include('_footer')%>
+</body>
+</html>

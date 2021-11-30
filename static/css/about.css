@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+
+.main{
+    height: 75vh;
+    width: 98vw;
+    display: flex;
+}
+
+.about-img{
+    height: 75vh;
+    width: 50vw;
+}
+
+.right{
+    height: 75vh;
+}
+.content{
+    padding-top: 18px;
+    padding-left: 80px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 35px;
+    font-family: cursive;
+    font-weight: 800;
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url('/img/about2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 320px -5px;
+}
+
+.content div{
+    padding: 7px 0;
+}

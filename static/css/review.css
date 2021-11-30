@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+
+.main{
+    height: 75vh;
+    width: 99vw;
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url('/img/review.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.main-content{
+    padding-top: 5vh;
+    margin-left: 20px;
+}
+
+.main-content div{
+    padding-top: 10px;
+}
+
+.main-content div input, button{
+    height: 40px;
+    width: 500px;
+}
+
+.main-content div input::placeholder{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: cursive;
+    padding-left: 10px;
+}

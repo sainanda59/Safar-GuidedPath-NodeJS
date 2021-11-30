@@ -1,0 +1,26 @@
+.footer{
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+.upper{
+    display: flex;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons img{
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+}
+
+.lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
